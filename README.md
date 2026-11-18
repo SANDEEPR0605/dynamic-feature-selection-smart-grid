@@ -1,6 +1,6 @@
 # Dynamic Feature Selection for Non-Stationary Environments
 
-A drift-triggered framework for smart grid load forecasting.
+A drift-triggered framework for smart grid load forecasting. This repository holds the code for my MSc Data Science dissertation at Lancaster University.
 
 Static feature selection picks a fixed set of input variables once and never revisits it, which is a poor fit when the relationship between features and electricity load changes over time. This project builds a framework that detects concept drift and responds by updating both its active feature subset and its regression model. It compares that framework against a static baseline and a continuously updating online learner, all evaluated on the same held-out stream.
 
@@ -13,7 +13,7 @@ Static feature selection picks a fixed set of input variables once and never rev
 
 ## Headline result
 
-The dynamic framework reduced mean absolute error by 7.2% (point estimate) against a static Random Forest baseline. The more conservative block-bootstrap test found that this difference is not statistically distinguishable from zero on this dataset.
+The dynamic framework reduced mean absolute error by 7.2% (point estimate) against a static Random Forest baseline. The more conservative block-bootstrap test found that this difference is not statistically distinguishable from zero on this dataset. The full discussion is in the dissertation.
 
 ## Repository layout
 
@@ -53,4 +53,12 @@ results/     Tables, figures, logs and models written by the notebooks
    jupyter notebook
    ```
 
-The notebooks also run on Google Colab, where they mount Google Drive
+The notebooks also run on Google Colab, where they mount Google Drive and expect the project at `MyDrive/dissertation-project`.
+
+## Author
+
+Sandeep Ravindra Kumar, MSc Data Science, Lancaster University.
+
+## Licence
+
+Released under the MIT licence. See `LICENSE`.
