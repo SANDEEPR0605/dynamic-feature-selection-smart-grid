@@ -1,0 +1,20 @@
+{
+  "best_feature_selection_method": "rf_importance",
+  "ranking": [
+    "rf_importance",
+    "correlation",
+    "permutation_importance"
+  ],
+  "top_k": 6,
+  "forward_horizon": 500,
+  "drift_alarm_indices_used": [
+    2559,
+    5151,
+    7519
+  ],
+  "rf_bias_check": {
+    "mean_MAE_with_rf": 3.0594397802302176,
+    "mean_MAE_with_non_rf": 3.099547673844146,
+    "bias_detected": false
+  }
+}

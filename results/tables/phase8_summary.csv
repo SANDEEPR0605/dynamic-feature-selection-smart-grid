@@ -1,0 +1,2 @@
+system,MAE,RMSE,R2,MAPE,Adjusted_R2,Penalised_MAE,Penalised_Loss,total_runtime_s,selection_runtime_s,n_drift_events,n_retrains,mean_feature_stability_index,mean_importance_consistency,feature_switch_rate,mean_adaptation_time_rows,n_adaptation_events_recovered
+Online Lasso (L1-regularised),1.8969333689709136,2.4553573489972225,0.6272528072819218,35.572066005311626,0.6268049284081242,2.3828587058725126,7.927550606527946,0.6128371899999934,0.0,0,0,1.0,,0.0,,0

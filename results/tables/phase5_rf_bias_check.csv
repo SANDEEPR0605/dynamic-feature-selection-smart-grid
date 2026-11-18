@@ -1,0 +1,4 @@
+alarm_idx,selected_features,downstream_model,MAE,RMSE,R2,MAPE,Adjusted_R2
+2559,"Reactive Power (kVAR), Temperature (°C), Voltage Fluctuation (%), Humidity (%), Voltage (V), Power Factor",XGBoost,2.6626251094261626,3.5260881280359655,0.20160364147799525,29.408824364046577,0.19188685009638873
+5151,"Reactive Power (kVAR), Temperature (°C), Electricity Price (USD/kWh), Solar Power (kW), Voltage Fluctuation (%), Wind Power (kW)",XGBoost,3.1181841009613955,3.645194227897144,-1.6004362384134612,86.3779779579197,-1.6320845496314749
+7519,"Reactive Power (kVAR), Solar Power (kW), Voltage (V), Humidity (%), Electricity Price (USD/kWh), Wind Power (kW)",XGBoost,3.51783381114488,4.448178904188675,0.02113249587794508,33.7605396519506,0.009219301101611732

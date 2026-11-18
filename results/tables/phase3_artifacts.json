@@ -1,0 +1,22 @@
+{
+  "stability_window_sizes_tested": [
+    250,
+    500,
+    1000,
+    1500,
+    2500,
+    4000,
+    6000
+  ],
+  "accuracy_window_sizes_tested": [
+    250,
+    500,
+    1000,
+    1500,
+    2500
+  ],
+  "chosen_window_size": 4000,
+  "plateau_found_within_tested_range": true,
+  "selection_rule": "diminishing-returns (elbow): smallest window size reaching >=80% of the achievable importance-consistency range (full-dataset stability sweep)",
+  "top_k_for_stability_index": 6
+}
