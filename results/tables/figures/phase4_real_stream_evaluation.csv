@@ -1,0 +1,4 @@
+detector,display_name,drift_count_real_stream,runtime_s
+adwin,ADWIN,0,0.003322489000083806
+ddm,DDM,1,0.01604833399983363
+page_hinkley,Page-Hinkley,8,0.016215965000128563
