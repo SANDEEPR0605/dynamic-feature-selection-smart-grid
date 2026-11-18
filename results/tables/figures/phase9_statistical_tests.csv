@@ -1,4 +1,0 @@
-comparison,median_error_diff_(a_minus_b),lower_error_system,wilcoxon_statistic,p_value,significant_at_0.05
-static vs dynamic,0.15984539710416623,dynamic,21236567.0,6.821741891453006e-39,True
-static vs online,0.3580317355803022,online,18848183.0,7.798723352599469e-101,True
-dynamic vs online,0.0017423175424667037,online,22563764.0,2.9787260843902035e-17,True
