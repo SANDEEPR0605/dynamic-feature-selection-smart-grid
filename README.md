@@ -53,4 +53,4 @@ results/     Tables, figures, logs and models written by the notebooks
    jupyter notebook
    ```
 
-The notebooks also run on Google Colab, where they mount Google Drive and expect the project at `MyDrive/dissertation-project`.
+The notebooks also run on Google Colab, where they mount Google Drive
